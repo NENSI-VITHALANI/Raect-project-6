@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+/* Add this CSS in your component or a separate stylesheet */
+
+Style for the entire table
+.detailtable {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.detailtable thead {
+  background-color: #00001a;
+  color: white;
+  font-size: 22px;
+}
+
+
+.detailtable th  {
+  padding: 10px;
+  text-align: center;
+  
+}
+.detailtable tbody tr:nth-child(even) {
+  background-color: #e0dfdf;
+}
+
+/* Style for table data cells */
+.detailtable td {
+  padding:10px 20px ;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Style for edit and delete buttons */
+.detailtable button {
+  color: white;
+  cursor: pointer;
+}
+ 
